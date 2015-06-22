@@ -1,0 +1,13 @@
+{
+  "name": "hb-browserify-test",
+  "version": "0.1.0",
+  "author": "Kenneth Ormandy <kenneth@chloi.io> (http://kennethormandy.com)",
+  "license": "MIT",
+  "dependencies": {
+    "vague-time": "latest"
+  },
+  "devDependencies": {
+    "harp": "0.17.0",
+    "terraform": "vbwx/terraform#b426d8833e2b5eb6004b1f2ca80d9a147beab1e4"
+  }
+}
