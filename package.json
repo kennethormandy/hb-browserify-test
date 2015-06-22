@@ -8,6 +8,12 @@
   },
   "devDependencies": {
     "harp": "0.17.0",
-    "terraform": "vbwx/terraform#b426d8833e2b5eb6004b1f2ca80d9a147beab1e4"
+    "terraform": "vbwx/terraform#b426d8833e2b5eb6004b1f2ca80d9a147beab1e4",
+    "surge": "latest"
+  },
+  "scripts": {
+    "start": "./node_modules/harp/bin/harp server ./",
+    "compile": "./node_modules/harp/bin/harp compile",
+    "deploy": "surge www"
   }
 }
